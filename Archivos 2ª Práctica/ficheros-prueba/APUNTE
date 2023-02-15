@@ -1,0 +1,4 @@
+APUNTE
+alumno@lab22:~/ficheros-prueba$ flex lexico2.l
+alumno@lab22:~/ficheros-prueba$ gcc lex.yy.c main.c -lfl -o lexico2
+alumno@lab22:~/ficheros-prueba$ ./lexico2
